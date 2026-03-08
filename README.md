@@ -35,7 +35,6 @@ Users can register, log in, manage books, and securely store their personal book
 Each book is linked to a specific user.
 
 **Architecture**
-
 LibSpace follows a layered backend architecture.
 
 Client
@@ -53,34 +52,6 @@ MongoDB Database
 ⚡ Maintainability
 📦 Scalability
 🧹 Clean code organization
-
-**Project Folder Structure**
-
-MY-LIBSPACE-MAIN
-│
-├── Config
-│   └── db.js
-│
-├── controller
-│   ├── authController.js
-│   └── bookController.js
-│
-├── middlewares
-│   └── verify_token.js
-│
-├── models
-│   ├── user.model.js
-│   ├── book.model.js
-│   └── blackListerToken.js
-│
-├── routes
-│   ├── user.route.js
-│   └── book.route.js
-│
-├── index.js
-├── package.json
-├── .env
-└── README.md
 
 
 **⚙️ Installation**
